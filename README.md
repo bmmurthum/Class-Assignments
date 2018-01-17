@@ -6,7 +6,7 @@ Major projects are briefly described, while smaller projects will be included in
 
 ## Projects
 
-**UX and Design Semester-Project:** - [Project PDF](https://google.com)
+**UX and Design Semester-Project:** - [Project PDF](https://github.com/bmmurthum/Class-Assignments/raw/master/A%20Redesign%20of%20Brendonsweb.pdf)
 
 This project was done over the course of the semester in a course of Usability Design with lectures from Prof. Scott Grissom. It was built to resemble the student acting as a consultant to a company interested in redesigning a website. The project shows knowledge and practice of terminology in the field of UX; design of use-cases, user-tasks, and personas; use of low-fidelity and high-fidelity prototypes; and application of user-testing. The process was also a large exercise of writing valuable documentation, which was overviewed consistently by the professor. 
 
