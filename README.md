@@ -14,6 +14,9 @@ The course took an inspiration from UX expert David Platt's [The Joy of UX](http
 
 Good UX translates to (1) increased sales, (2) fewer errors by users, and (3) increased employee productivity. 
 
+**Database Creation and Management Group-Project:** - [Download Project PDF](https://github.com/bmmurthum/Class-Assignments/raw/master/Project_submission.pdf) - [Download PL/SQL PDF](https://github.com/bmmurthum/Class-Assignments/raw/master/projectout.pdf)
+
+This group project was done over several weeks later in the semester in a SQL Database course. It was an exercise in writing documentation that adheres to the desired requirements of an administrator, an exercise in creating EER diagrams and relational schemas, and an exercise in trialing many critical SQL queries involved in creation, deletion, user permissions and integrity constraints.
 
 
 ## Assignments
