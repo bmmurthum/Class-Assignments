@@ -24,6 +24,10 @@ This group project was assigned towards the end of the semester in a Data Commun
 
 A few notes of my focus on this project: I made sure to have my code be compliant to the [GVSU Style-Guideline](http://www.cis.gvsu.edu/java-coding-style-guide/) using [Checkstyle](http://checkstyle.sourceforge.net/). I made the design diagram using the website [Draw.io](https://www.draw.io/). A teammate and I, in pair-programming, put particular emphasis to an actively updating elements of the user GUI, where the "Central-Server" would send packets to individual users of which games are available to be joined. I also put time into the visual appeal of the "Lobby GUI."
 
+**Napster Redesign - TCP Group-Project:** - [Download Project PDF](https://github.com/bmmurthum/NapsterRedesign/raw/master/InitialProject/Project2_Report.pdf) - [Link to Github Page](https://github.com/bmmurthum/NapsterRedesign)
+
+This group project was developed throughout the semester as we learned concepts networking concepts. The project is a loosely mirrored example of the Napster system: a peer-to-peer file-sharing system. The basic architecture is that of a main-server that handles connections of clients that send the main-server their information of which files they are making available to other clients. This project was a large exercise in managing group-development cycles and communication within a four-person group. It was also an exercise in Java's Swing library and Java's interaction with XML files.
+
 ## Assignments
 
 | Title | Class | Date |
