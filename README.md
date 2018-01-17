@@ -28,7 +28,7 @@ A few notes of my focus on this project: I made sure to have my code be complian
 
 This group project was developed throughout the semester as we learned concepts networking concepts. The project is a loosely mirrored example of the Napster system: a peer-to-peer file-sharing system. The basic architecture is that of a main-server that handles connections of clients that send the main-server their information of which files they are making available to other clients. This project was a large exercise in managing group-development cycles and communication within a four-person group. It was also an exercise in Java's Swing library and Java's interaction with XML files.
 
-**5. Three-Play Game - Group-Project:** - [Link to Github Page](https:/google.com)
+**5. Three-Play Game - Group-Project:** - [Link to Github Page](https://github.com/bmmurthum/Three-Play)
 
 This three-person group project was assigned within a course with a focus on the software development process. Terminology of production cycles, useful technologies in planning and packages for quality testing (Git, Checkstyle, Eclipse, Trello and JUnit). The product was a suite of three games: checkers, sudoku, and othello. My focus was on the development of the sudoku partition.
 
