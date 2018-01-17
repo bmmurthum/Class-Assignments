@@ -18,6 +18,11 @@ Good UX translates to (1) increased sales, (2) fewer errors by users, and (3) in
 
 This group project was done over several weeks later in the semester in a SQL Database course. It was an exercise in writing documentation that adheres to the desired requirements of an administrator, an exercise in creating EER diagrams and relational schemas, and an exercise in trialing many critical SQL queries involved in creation, deletion, user permissions and integrity constraints.
 
+**Blackjack Game - TCP Group-Project:** - [Link to Github Page](https://github.com/bmmurthum/BlackJack-p2p)
+
+This group project was assigned towards the end of the semester in a Data Communications course. The game was largely an exercise of handling TCP sockets, and managing various data-types being communicated between various processes. The game was built on a framework that we had developed as a group through the semester. 
+
+A few notes of my focus on this project: I made sure to have my code be compliant to the [GVSU Style-Guideline](http://www.cis.gvsu.edu/java-coding-style-guide/) using [Checkstyle](http://checkstyle.sourceforge.net/). I made the design diagram using the website [Draw.io](https://www.draw.io/). A teammate and I, in pair-programming, put particular emphasis to an actively updating elements of the user GUI, where the "Central-Server" would send packets to individual users of which games are available to be joined. I also put time into the visual appeal of the "Lobby GUI."
 
 ## Assignments
 
