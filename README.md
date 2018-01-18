@@ -6,7 +6,7 @@ Major projects are briefly described, while smaller projects will be included in
 
 ## Projects
 
-**1. UX and Design Semester-Project:** - [Download Project PDF](https://github.com/bmmurthum/Class-Assignments/raw/master/A%20Redesign%20of%20Brendonsweb.pdf)
+**1. UX and Design Semester-Project:** - [Download Project PDF](https://github.com/bmmurthum/Class-Assignments/raw/master/Projects/UX-Design-Semester-Project.pdf)
 
 This project was done over the course of the semester in a course of Usability Design with lectures from Prof. Scott Grissom. It was built to resemble the student acting as a consultant to a company interested in redesigning a website. The project shows knowledge and practice of terminology in the field of UX; design of use-cases, user-tasks, and personas; use of low-fidelity and high-fidelity prototypes; and application of user-testing. The process was also a large exercise of writing valuable documentation, which was overviewed consistently by the professor. 
 
@@ -14,7 +14,7 @@ The course took an inspiration from UX expert David Platt's [The Joy of UX](http
 
 Good UX translates to (1) increased sales, (2) fewer errors by users, and (3) increased employee productivity. 
 
-**2. Database Creation and Management Group-Project:** - [Download Project PDF](https://github.com/bmmurthum/Class-Assignments/raw/master/Project_submission.pdf) - [Download PL/SQL PDF](https://github.com/bmmurthum/Class-Assignments/raw/master/projectout.pdf)
+**2. Database Creation and Management Group-Project:** - [Download Intro-Document PDF](https://github.com/bmmurthum/Class-Assignments/raw/master/Projects/Database-Intro-Document.pdf) - [Download PL/SQL PDF](https://github.com/bmmurthum/Class-Assignments/raw/master/Projects/Database-Semester-Project.pdf)
 
 This group project was done over several weeks later in the semester in a SQL Database course. It was an exercise in writing documentation that adheres to the desired requirements of an administrator, an exercise in creating EER diagrams and relational schemas, and an exercise in trialing many critical SQL queries involved in creation, deletion, user permissions and integrity constraints.
 
@@ -34,6 +34,6 @@ This three-person group project was assigned within a course with a focus on the
 
 ## Assignments
 
-| Title | Class | Date |
-|:-----:|:-----:|:----:|
-|Temp   |CIS 123| Jan 2, 2018|
+Title | Language | Course | Date
+|:---:|:--------:|:------:|:----:|
+[Manipulation of Terminal Settings](https://github.com/bmmurthum/Class-Assignments/blob/master/Assignments/manipulateTerminal.c) | C | CIS 452 | January 2018
