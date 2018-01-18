@@ -1,8 +1,6 @@
 # Class-Assignments
 
-The following repository is for gathering assignments and major projects into one location.
-
-Major projects are briefly described, while smaller projects will be included in a table.
+The following repository is for gathering assignments and major projects into one location. Major projects are briefly described, while smaller projects will be included in a table.
 
 ## Projects
 
@@ -36,4 +34,7 @@ This three-person group project was assigned within a course with a focus on the
 
 Title | Language | Course | Date
 |:---:|:--------:|:------:|:----:|
-[Manipulation of Terminal Settings](https://github.com/bmmurthum/Class-Assignments/blob/master/Assignments/manipulateTerminal.c) | C | CIS 452 | January 2018
+[Manipulation of Terminal Settings](https://github.com/bmmurthum/Class-Assignments/blob/master/Assignments/manipulateTerminal.c) | C | Operating systems | January 2018
+[Lexer-Parser Combination](https://github.com/bmmurthum/Lexer-Parser-Example) | Yacc, Lex, C | Computer Languages | October 2017
+[Handling Memory in C](https://github.com/bmmurthum/Quick-cReverse) | C | Computer Languages | September 2017
+
