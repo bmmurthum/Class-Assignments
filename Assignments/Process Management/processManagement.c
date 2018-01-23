@@ -43,7 +43,7 @@ int main(int argc, char* argv[]) {
 	/** Process addresses. For managing children. */
 	pid_t pid, wpid;
 
-    /** Display a prompt to the user. */
+    	/** Display a prompt to the user. */
 	printf("Simple Shell:\n");
 	
 	// Runs until user quits the program.
