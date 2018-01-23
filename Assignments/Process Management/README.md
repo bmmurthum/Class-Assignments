@@ -2,15 +2,15 @@
 
 This document is an exercise and review of the mechanisms used in UNIX/Linux systems for process creation, execution management, blocking and termination. In C, this will be an exercise of `fork()`, `exec()`, `wait()`, and `exit()` system calls.
 
-The sample programs are directly sourced from an assignment by Prof. Hans Dulimarta.
+The sample programs are sourced from an assignment by Prof. Hans Dulimarta.
 
 ## Contents
 
-- Process Creation
-- Process Suspension and Termination
-- Process Execution
-- Discussion of Exercise Assignment
-- Source of Exercise Assignment
+- [Process Creation](https://github.com/bmmurthum/Class-Assignments/tree/master/Assignments/Process%20Management#process-creation)
+- [Process Suspension and Termination](https://github.com/bmmurthum/Class-Assignments/tree/master/Assignments/Process%20Management#process-suspension-and-termination)
+- [Process Execution](https://github.com/bmmurthum/Class-Assignments/tree/master/Assignments/Process%20Management#process-execution)
+- [Discussion of Exercise Assignment](https://github.com/bmmurthum/Class-Assignments/tree/master/Assignments/Process%20Management#discussion-of-exercise-assignment)
+- [Source of Exercise Assignment](https://github.com/bmmurthum/Class-Assignments/blob/master/Assignments/Process%20Management/processManagement.c)
 
 ## Process Creation
 
@@ -39,11 +39,11 @@ After fork
 After fork
 ```
 
-**Why did this happen?**
+**Why Did This Happen?**
 
-Stepping through the program, we can see that `puts("Before fork")` will only be called once. Then, `fork()` births another process identical to this program with the program counter at the same location. Then each of these two processes, the parent and the child, independently run to their completition--both running their own `puts("After fork")`.
+Stepping through the program, we can see that `puts("Before fork")` will only be called once. Then, `fork()` births another process identical to this program with the program counter at the same location. Then each of these two processes, the parent and the child, independently run to their completion--both running their own `puts("After fork")`.
 
-**Observing the process info:**
+**Observing the Process Info:**
 
 By running our program with `&` appended to the end, we can run our command in background mode. In our case, something like `./a.out&`. In the moment of the program stalling on the `sleep()` method, we can run the "ps" utility in verbose mode to see details of which processes are running and some related information to each process. We do with with the command `ps -v`.
 
@@ -105,15 +105,15 @@ PID#: 3716
 
 **Description of Output:**
 
-The previous program executes `fork()` twice, showing us an interesting output. A critical thing to observe here is the behavior of our OS's process scheduling. By running this, we can see that the OS gives each one of these child processes runtime one after another (noting that the PID may potentially not be in sequencial order). In a system with multiple cores, they may run concurrently, and without precise pattern of which to finish first.
+The previous program executes `fork()` twice, showing us an interesting output. A critical thing to observe here is the behavior of our OS's process scheduling. By running this, we can see that the OS gives each one of these child processes runtime one after another (noting that the PID may potentially not be in sequencial order). In a system with multiple cores and an OS that supports their use effectively, they may run concurrently without precise pattern of which to finish first.
 
 **Illustration of the Processes:**
 
-*Link an image here.*
+![Illustration of Fork() Method](https://github.com/bmmurthum/Class-Assignments/blob/master/Assignments/Process%20Management/ProcessManagement.jpg)
 
 ## Process Suspension and Termination
 
-Here we will look at the `wait()` system call and the `exit()` function as related to the parent-child relationship.
+Here, we will look at the `wait()` system call and the `exit()` function as related to the parent-child relationship.
 
 **Sample Program #3:**
 
@@ -208,4 +208,4 @@ The program is meant to emulate the processes of a typical shell. Our example, r
 - Find and use the appropriate system call to collect resource usage statistics about each executed process.
 - Continue accepting commands until user types `quit`.
 
-[Link](https://google.com) to the source code.
+The full [source code](https://github.com/bmmurthum/Class-Assignments/blob/master/Assignments/Process%20Management/processManagement.c).
