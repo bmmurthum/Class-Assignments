@@ -37,4 +37,4 @@ Title | Language | Course | Date
 [Manipulation of Terminal Settings](https://github.com/bmmurthum/Class-Assignments/blob/master/Assignments/manipulateTerminal.c) | C | Operating systems | January 2018
 [Lexer-Parser Combination](https://github.com/bmmurthum/Lexer-Parser-Example) | Yacc, Lex, C | Computer Languages | October 2017
 [Handling Memory in C](https://github.com/bmmurthum/Quick-cReverse) | C | Computer Languages | September 2017
-
+[Process Management](https://github.com/bmmurthum/Class-Assignments/tree/master/Assignments/Process%20Management) | C | Operating Systems | January 2018
